@@ -14,4 +14,6 @@ public interface IBooksService {
     public Books findOne(Long Id);
 
     public void delete(Books books);
+    
+    public void delete(Long Id);
 }

@@ -43,4 +43,9 @@ public class BooksServiceImpl implements IBooksService {
         booksDao.delete(books);
     }
     
+    @Override
+    public void delete(Long Id) {
+        booksDao.deleteById(Id);
+    }
+    
 }
